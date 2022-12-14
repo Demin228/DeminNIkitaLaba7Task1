@@ -1,0 +1,45 @@
+.chooseYourStyle{
+    padding:1% 2% 1% 2%;
+
+    font-family: 'FuturaBookC';
+
+    width: 95%;
+    height: 590px;
+    
+    font-size: 1200%;
+    font-weight: 900;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width:510px) {
+    .chooseYourStyle{
+        font-size: 1100%;
+        
+        padding:1% 2% 1% 2%;
+    }
+    header{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .chooseYourStyle{
+        font-size: 900%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .chooseYourStyle{
+        font-size: 800%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .chooseYourStyle{
+        font-size: 750%;
+    }
+}

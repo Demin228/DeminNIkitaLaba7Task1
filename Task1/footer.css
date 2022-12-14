@@ -1,0 +1,352 @@
+#footer{
+    background-color: black;
+
+    width: 101.9%;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.4%;
+
+    margin-right: -8px;
+    margin-left: -20px;
+    margin-bottom: -8px;
+}
+
+.communication{
+    grid-column: 1;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    font-size: 200%;
+}
+.mySocialNetworksLinks{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    z-index: 2;
+}
+
+.networksPhoto{
+    padding: 0 5px;
+    width: 120px;
+    height: 100px;
+}
+.myPhoneIcon{
+    display: none;
+}
+
+.footerNav{
+    grid-column: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 200%;
+}
+
+.footerLink{
+    padding: 10px 0;
+}
+
+.text-field {
+    margin-bottom: 1rem;
+  }
+
+  .text-field__input {
+
+    font-family: 'FuturaBookC';
+
+    display: block;
+    width: 91%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .text-field__input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+  }
+
+  .text-field__input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
+
+  .text-field__input:disabled,
+  .text-field__input[readonly] {
+    background-color: #f5f5f5;
+    opacity: 1;
+  }
+  .text-field__icon {
+    position: relative;
+  }
+
+  .text-field__icon::before {
+    content: '';
+    color: #bdbdbd;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0.625rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .text-field__icon input {
+    padding-left: 2rem;
+  }
+
+  .text-field__icon_email::before {
+    content: '@';
+  }
+
+  .motto{
+    grid-column: 3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+.mottoText{
+    color: white;
+
+    font-size: 800%;
+    font-weight: 900;
+}
+
+@media screen and (max-width:1200px) {
+    #footer{
+        width: 103%;
+    }
+    .communication{
+        font-size: 170%;
+    }
+    .networksPhoto{
+        padding: 0 5px;
+        width: 100px;
+        height: 90px;
+    }
+    button.owl-prev{
+        left: 2%;
+    }
+}
+
+@media screen and (max-width:1090px) {
+    .mottoText{
+        font-size: 700%;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .communication{
+        font-size: 150%;
+    }
+    .networksPhoto{
+        padding: 0 2px;
+        width: 94px;
+        height: 86px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .mottoText{
+        font-size: 600%;
+    }
+}
+
+@media screen and (max-width:936px) {
+    #footer{
+        width: 104%;
+    }
+    .slider{
+        width: 104%;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .communication{
+        font-size: 130%;
+    }
+    .networksPhoto{
+        padding: 0 2px;
+        width: 90px;
+        height: 84px;
+    }
+}
+@media screen and (max-width:840px) {
+    .mottoText{
+        font-size: 500%;
+    }
+}
+@media screen and (max-width:810px) {
+    #footer{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    .communication{
+        padding: 20px 0;
+        flex-direction: row;
+    }
+    .myPhoneText{
+        display: none;
+    }
+    .mySocialNetworksText{
+        display: none;
+    }
+    .footerNav{
+        padding: 20px 0;
+        flex-direction: row;
+    }
+    .footerLink{
+        padding: 0 15px;
+    }
+    .motto{
+        padding: 20px 0;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:735px) {
+    .motto{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:706px) {
+    #footer{
+        width: 105%;
+    }
+    .slider{
+        width: 105%;
+    }
+    button.owl-prev{
+        left: 3%;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .myPhoneIcon{
+        display: block;
+    }
+    .myPhoneNumber{
+        display: none;
+    }
+    .myPhoneIconPicture{
+        width: 55px;
+        height: 55px;
+    }
+    button.owl-prev{
+        left: 4%;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .communication{
+        padding: 10px 0;
+    }
+    .footerNav{
+        padding: 10px 0;
+        font-size: 180%;
+    }
+    .footerLink{
+        padding: 0 10px;
+    }
+    .motto{
+        padding: 10px 0;
+        font-size: 90%;
+    }
+    #footer{
+        height: 350px;
+        width: 110%;
+    }
+    .slider{
+        width: 109%;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .communication{
+        padding: 5px 0;
+    }
+    .footerNav{
+        padding: 5px 0;
+        font-size: 140%;
+    }
+    .footerLink{
+        padding: 0 5px;
+    }
+    .motto{
+        padding: 5px 0;
+        font-size: 70%;
+    }
+    #footer{
+        height: 275px;
+        width: 107.9%;
+    }
+    .slider{
+        width: 106.5%;
+    }
+    .text-field__input {
+        height: calc(2rem + 1px);
+    }
+    .networksPhoto{
+        width: 80px;
+        height: 76px;
+    }
+    .myPhoneIconPicture{
+        width: 45px;
+        height: 45px;
+    }
+    button.owl-prev{
+        left: 7%;
+    }
+}
+@media screen and (max-width:365px) {
+    #footer{
+        width: 110.9%;
+    }
+    .slider{
+        width: 109%;
+    }
+}
+@media screen and (max-width:335px) {
+    #footer{
+        width: 111%;
+    }
+    .slider{
+        width: 110%;
+    }
+}

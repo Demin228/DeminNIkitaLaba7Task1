@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Futura Condensed Plain:001.004';
+	src: url('../fonts/futura_condensed_plain001-004.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/futura_condensed_plain001-004.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/futura_condensed_plain001-004.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/futura_condensed_plain001-004.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/futura_condensed_plain001-004.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/futura_condensed_plain001-004.svg#futura_condensed_plain001-004') format('svg'); /* Chrome < 4, Legacy iOS */
+}

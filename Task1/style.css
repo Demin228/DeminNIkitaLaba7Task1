@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'FuturaBookC';
+	src: url('./fonts/FuturaBookC/futurabookc.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/FuturaBookC/futurabookc.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/FuturaBookC/futurabookc.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/FuturaBookC/futurabookc.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/FuturaBookC/futurabookc.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/FuturaBookC/futurabookc.svg#futurabookc') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+html{
+    font-family: 'FuturaBookC';
+    background-color: #F7F8FC;
+    font-size: 1rem;
+
+}
+header{
+   padding: 0;
+   margin: -10px -8px 0 -20px;
+   max-width: 110%;
+   height:125px;
+
+   display: flex;
+   justify-content: space-between;
+
+   font-size: 25pt;
+   
+   background-color: #000000;
+
+}
+#Logo{
+    padding:5px;
+    padding-top: 0;
+    max-width: 30%;
+}
+#LogoImg{
+    max-width: 100%;
+    max-height: 100%;
+}
+a{
+    text-decoration: none;
+    
+    color: white;
+}
+nav{
+    display: flex;
+}
+.HeaderNav{
+    padding: 30px;
+    padding-top: 40px;
+    max-width: 70%;
+}
+.SneakerText{
+    padding: 15px 15px 1px 15px;
+}
+
+@media  screen and (max-width:1440px) {
+    #burger{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .blockTitle{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width:935px) {
+    .blockTitle{
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width:905px) {
+    #burger{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+}
+
+@media screen and (max-width:815px) {
+    .blockTitle{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .blockTitle{
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .blockTitle{
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .blockTitle{
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .blockTitle{
+        font-size: 25%;
+    }
+}
+

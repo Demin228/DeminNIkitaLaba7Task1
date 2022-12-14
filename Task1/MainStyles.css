@@ -1,0 +1,69 @@
+main{
+    max-width: 100%;
+    font-size: 193.8%;
+
+    font-family: 'FuturaBookC';
+}
+.slider{
+    width: 103%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    margin-right: -8px;
+    margin-left: -20px;
+}
+.slider .center .slider__item{
+    display: block;
+}
+button.owl-prev{
+
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    width: 4%;
+    left: 1%;
+    display: flex;
+    justify-content: center;
+}
+button.owl-next{
+
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 4%;
+    right: 1%;
+    display: flex;
+    justify-content: center;
+}
+button.owl-next:hover{
+    background-color: grey;
+    z-index: 10;
+}
+.SneakerBlock{
+    position: relative;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+.blockTitle{
+
+    padding-top: 5px;
+    color: black;
+    width: 55%;
+    height: 5%;
+
+    position: absolute;
+    top: -40px;
+    left: 8px;
+    z-index: 2;
+}
+h2{
+    font-size: 450%;
+}
+.SneakerText{
+    width: 100%;
+}
+
+
+
